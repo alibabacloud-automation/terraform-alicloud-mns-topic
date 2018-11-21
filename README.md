@@ -11,7 +11,6 @@ These types of resources are supported:
 
 ----------------------
 
-
 Usage
 -----
 You can use this in your terraform template with the following steps.
@@ -42,7 +41,6 @@ module "mns-topic" {
     - ALICLOUD_SECRET_KEY
     - ALICLOUD_REGION
 
-
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -55,7 +53,6 @@ module "mns-topic" {
 |notify_strategy          |  The NotifyStrategy attribute of Subscription.   |   string  |    "BACKOFF_RETRY"  |    no       |
 |notify_content_format    |  The NotifyContentFormat attribute of Subscription.   |   string  |   "XML"  |    no       |
 |filter_tag               |  Describe the terminal address of the message received in this subscription.   |   string  |    ""   |    no       |
- 
 
 ## Outputs
 
@@ -63,8 +60,6 @@ module "mns-topic" {
 |------|-------------|
 | this_topic_name     |        the name of topic created     |
 | this_subscription_name     |        the name of subscription created     |
-
-
 
 Authors
 ---------

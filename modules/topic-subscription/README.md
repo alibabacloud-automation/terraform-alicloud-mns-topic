@@ -11,8 +11,6 @@
 |notify_content_format    |  The NotifyContentFormat attribute of Subscription.   |   string  |   "XML"  |    no       |
 |filter_tag               |  Describe the terminal address of the message received in this subscription.   |   string  |    ""   |    no       |
  
- 
-
 ## Outputs
 
 | Name | Description |
