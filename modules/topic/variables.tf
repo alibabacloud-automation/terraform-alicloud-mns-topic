@@ -11,3 +11,4 @@ variable "logging_enabled" {
   description = "is log enabled ?"
   default     = false
 }
+

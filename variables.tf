@@ -1,3 +1,8 @@
+variable "region" {
+  description = "The region used to launch this module resources."
+  default     = ""
+}
+
 ##############################################################
 #variables for db alicloud_msn_topic
 ##############################################################
@@ -39,3 +44,4 @@ variable "notify_content_format" {
 variable "filter_tag" {
   description = "Message Filter Label"
 }
+
