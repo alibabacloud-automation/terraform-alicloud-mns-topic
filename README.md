@@ -63,7 +63,7 @@ module "mns-topic" {
 
 Authors
 ---------
-Created and maintained by Xiaohui Duan(@XiaoHuiDuan, dxh031@163.com)
+Created and maintained by Alibaba Cloud Terraform Team(terraform@alibabacloud.com)
 
 Reference
 ---------
