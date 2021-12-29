@@ -58,8 +58,8 @@ module "mns-topic" {
 
 | Name | Description |
 |------|-------------|
-| this_topic_name     |        the name of topic created     |
-| this_subscription_name     |        the name of subscription created     |
+| topic_name     |        the name of topic created     |
+| subscription_name     |        the name of subscription created     |
 
 ## Notes
 From the version v1.2.0, the module has removed the following `provider` setting:
@@ -125,7 +125,7 @@ More details see [How to use provider in the module](https://www.terraform.io/do
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.12.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.13.0 |
 | <a name="requirement_alicloud"></a> [alicloud](#requirement\_alicloud) | >= 1.56.0 |
 
 Authors

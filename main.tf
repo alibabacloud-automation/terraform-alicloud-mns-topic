@@ -24,4 +24,3 @@ module "topic_subscription" {
   notify_strategy       = var.notify_strategy
   notify_content_format = var.notify_content_format
 }
-

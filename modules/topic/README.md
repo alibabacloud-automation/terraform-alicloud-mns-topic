@@ -12,4 +12,4 @@
 
 | Name | Description |
 |------|-------------|
-| this_topic_name    |     the name of topic        |
+| topic_name    |     the name of topic        |

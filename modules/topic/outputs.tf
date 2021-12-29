@@ -5,4 +5,3 @@ locals {
 output "topic_name" {
   value = local.this_topic_name
 }
-
