@@ -15,4 +15,4 @@
 
 | Name | Description |
 |------|-------------|
-| this_subcription_name    |     the name of subscription        |
+| subcription_name    |     the name of subscription        |

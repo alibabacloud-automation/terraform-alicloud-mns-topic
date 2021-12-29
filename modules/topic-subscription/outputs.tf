@@ -5,4 +5,3 @@ locals {
 output "subscription_name" {
   value = local.this_subscription_name
 }
-
