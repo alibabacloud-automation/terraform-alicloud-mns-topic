@@ -3,5 +3,6 @@ locals {
 }
 
 output "topic_name" {
-  value = local.this_topic_name
+  description = "The name of the topic"
+  value       = local.this_topic_name
 }
